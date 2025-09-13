@@ -8,7 +8,7 @@ public class NotificationManager {
 
     private final NotificationService notificationService;
 
-    // Explicitly choose the sms bean
+    
     public NotificationManager(@Qualifier("sms") NotificationService notificationService) {
         this.notificationService = notificationService;
     }
